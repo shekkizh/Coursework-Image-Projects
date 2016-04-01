@@ -1,0 +1,25 @@
+﻿Build started 9/25/2012 1:28:47 AM.
+     1>Project "C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\homework2\homework2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\homework2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt denoise_mixed.cpp
+         denoise_mixed.cpp
+     1>denoise_mixed.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>denoise_mixed.cpp(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\homework2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.pdb" /STACK:"8000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.lib" /MACHINE:X86 Debug\denoise_mixed.obj
+         LINK : C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.exe not found or not built by the last incremental link; performing full link
+         homework2.vcxproj -> C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\Debug\homework2.exe;#1" /manifest Debug\homework2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\homework2.unsuccessfulbuild".
+         Touching "Debug\homework2.lastbuildstate".
+     1>Done Building Project "C:\Users\charlie\Documents\Visual Studio 2010\Projects\EE569\homework2\homework2\homework2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56
